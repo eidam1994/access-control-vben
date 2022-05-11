@@ -58,6 +58,38 @@ export const auditColumns: BasicColumn[] = [
   },
 ];
 
+export const faceColumns: BasicColumn[] = [
+  {
+    title: '姓名',
+    dataIndex: 'nickName',
+  },
+  {
+    title: '身份证号',
+    dataIndex: 'cardNum',
+  },
+  {
+    title: '手机号',
+    dataIndex: 'mobile',
+  },
+  {
+    title: '楼栋号',
+    dataIndex: 'buildingName',
+  },
+  {
+    title: '房号',
+    dataIndex: 'roomNumber',
+  },
+  {
+    title: '创建时间',
+    dataIndex: 'createTime',
+  },
+  {
+    title: '修改时间',
+    dataIndex: 'updateTime',
+  },
+];
+
+
 export const searchFormSchema: FormSchema[] = [
   {
     field: 'nickName',

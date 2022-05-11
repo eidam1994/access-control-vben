@@ -69,6 +69,22 @@ const dashboard: AppRouteModule = {
         title: '开门记录',
       },
     },
+    {
+      path: 'face',
+      name: 'Face',
+      component: () => import('/@/views/district/person/face.vue'),
+      meta: {
+        title: '人脸信息',
+      },
+    },
+    {
+      path: 'camera',
+      name: 'Camera',
+      component: () => import('/@/views/district/control/camera.vue'),
+      meta: {
+        title: '摄像头管理',
+      },
+    },
   ],
 };
 
